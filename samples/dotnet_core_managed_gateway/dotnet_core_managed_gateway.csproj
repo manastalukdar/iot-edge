@@ -1,8 +1,8 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -14,6 +14,8 @@
     <ProjectReference Include="..\dotnet_core_module_sample\modules\HelloWorldModule\HelloWorldModule.csproj" />
     <ProjectReference Include="..\dotnet_core_module_sample\modules\PrinterModule\PrinterModule.csproj" />
     <ProjectReference Include="..\dotnet_core_module_sample\modules\SensorModule\SensorModule.csproj" />
+    <ProjectReference Include="..\dotnet_core_module_sample\modules\junehackfestModule\junehackfestModule.csproj" />
+    <ProjectReference Include="..\dotnet_core_module_sample\modules\QiEdgeModule\QiEdgeModule.csproj" />
   </ItemGroup>
 
   <ItemGroup>

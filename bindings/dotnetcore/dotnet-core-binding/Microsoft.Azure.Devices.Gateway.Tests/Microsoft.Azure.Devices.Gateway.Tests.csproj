@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
     <DebugType>portable</DebugType>
     <AssemblyName>Microsoft.Azure.Devices.Gateway.Tests</AssemblyName>
     <PackageId>Microsoft.Azure.Devices.Gateway.Tests</PackageId>

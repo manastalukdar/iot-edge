@@ -1,4 +1,4 @@
-﻿{
+{
     "modules": [
         {
             "name": "dotnet_sensor_module",
@@ -12,26 +12,12 @@
             "args": "module configuration"
         },
         {
-            "name": "dotnet_qiedge_module",
+            "name": "dotnet_junehackfest_module",
             "loader": {
                 "name": "dotnetcore",
                 "entrypoint": {
-                    "assembly.name": "QiEdgeModule",
-                    "entry.type": "QiEdgeModule.DotNetQiEdgeModule"
-                }
-            },
-            "args": {
-                "dataserverport": "5001",
-                "localstoragelocation":  "C:\\osisoft\\data.edge"
-            }
-        },
-        {
-            "name": "dotnet_printer_module",
-            "loader": {
-                "name": "dotnetcore",
-                "entrypoint": {
-                    "assembly.name": "PrinterModule",
-                    "entry.type": "PrinterModule.DotNetPrinterModule"
+                    "assembly.name": "junehackfestModule",
+                    "entry.type": "junehackfestModule.DotNetjunehackfestModule"
                 }
             },
             "args": "module configuration"
@@ -51,7 +37,7 @@
     "links": [
         {
             "source": "dotnet_sensor_module",
-            "sink": "dotnet_qiedge_module"
+            "sink": "dotnet_junehackfest_module"
         }
     ]
 }

@@ -1,4 +1,4 @@
-﻿{
+{
     "modules": [
         {
             "name": "dotnet_sensor_module",
@@ -24,17 +24,6 @@
                 "dataserverport": "5001",
                 "localstoragelocation":  "C:\\osisoft\\data.edge"
             }
-        },
-        {
-            "name": "dotnet_printer_module",
-            "loader": {
-                "name": "dotnetcore",
-                "entrypoint": {
-                    "assembly.name": "PrinterModule",
-                    "entry.type": "PrinterModule.DotNetPrinterModule"
-                }
-            },
-            "args": "module configuration"
         },
         {
             "name": "dotnet_helloworld_module",
